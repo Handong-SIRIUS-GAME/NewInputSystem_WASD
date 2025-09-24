@@ -5,9 +5,6 @@
 Unity 2D 프로젝트에서 **새 인풋 시스템**으로 WASD 이동 + 점프, 그리고 **앞보기(look-ahead) 카메라**를 사용하는 간단 스타터입니다.
 
 ---
-![alt text](HeroKnight-2.png)
-
-
 
 ## 스크립트 설명 (짧게)
 
@@ -45,6 +42,8 @@ Unity 2D 프로젝트에서 **새 인풋 시스템**으로 WASD 이동 + 점프,
 > **Move → `PlayerController.OnMove`**, **Jump → `PlayerController.OnJump`** 로 연결하세요.
 
 ---
+
+![alt text](HeroKnight-2.png)
 
 ## 애니메이션 파라미터 & 재생 조건
 
