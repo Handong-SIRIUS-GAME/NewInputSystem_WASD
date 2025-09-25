@@ -41,4 +41,12 @@ public class PlayerController : MonoBehaviour
             Debug.Log("점프입력");
         }
     }
+
+    public void OnAttack(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            movement.Attack();
+        }
+    }
 }

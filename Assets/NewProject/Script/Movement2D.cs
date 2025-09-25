@@ -60,6 +60,12 @@ public class Movement2D : MonoBehaviour
             animator.SetBool(isFallHash, false);
         }
     }
+    
+    public void Attack()
+    {
+        Debug.Log("공격시도");
+        animator.SetTrigger("Attack");
+    }
 
     private void Update()
     {
